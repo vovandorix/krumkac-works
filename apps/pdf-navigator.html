@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width,initial-scale=1" name="viewport" />
+  <title data-i18n="title.pdf">PDF Navigator — Krumkač Works</title>
+  <link href="../css/style.css" rel="stylesheet" />
+  <script defer="True" src="../languages/eng.js"></script>
+  <script defer="True" src="../languages/bel.js"></script>
+  <script defer="True" src="../languages/rus.js"></script>
+  <script defer src="../data/apps.js"></script>
+  <script defer="True" src="../js/main.js"></script>
+</head>
+
+<body>
+  <header class="site-header"><a class="wordmark" href="../index.html"><span
+        class="wordmark-feather">✦</span><span>Krumkač <b>Works</b></span></a>
+    <nav class="main-nav"><a data-i18n="nav.home" href="../index.html">Главная</a><a class="active"
+        data-i18n="nav.projects" href="../programs.html">Программы</a><a data-i18n="nav.about" href="../about.html">О
+        мастерской</a><a data-i18n="nav.contacts" href="../contacts.html">Контакты</a></nav>
+    <div aria-label="Select language" class="language-toggle" role="group"><button aria-label="English" data-lang="en"
+        type="button">ENG</button><button aria-label="Беларуская" data-lang="bel" type="button">BEL</button><button
+        aria-label="Русский" data-lang="ru" type="button">RU</button></div><button class="theme-toggle"><span
+        class="theme-icon">☼</span><span class="theme-label" data-i18n="ui.theme.light">Светлая
+        тема</span></button><button aria-label="Open menu" class="menu-toggle">☰</button>
+  </header>
+  <main class="app-page">
+
+    <a class="back-link" data-i18n="app.back" href="../programs.html">
+      ← Все проекты
+    </a>
+
+    <!-- Шапка приложения -->
+    <section class="app-hero" data-app="pdf">
+
+      <div class="app-hero-copy">
+
+        <p class="eyebrow" data-i18n="app.category.pdf">
+          Tool · Windows
+        </p>
+
+        <h1 data-app-name>PDF Navigator</h1>
+
+        <p class="page-lead" data-i18n="app.desc.pdf">
+          A tool for anyone whose books, manuals and documents are turning into a large library.
+          Catalogue PDFs, search by title or content, and inspect file details.
+        </p>
+
+      </div>
+
+      <div class="app-hero-art">
+        <img class="app-logo" data-app-logo data-app-logo-prefix="../"
+          src="../assets/images/works_img/pdf_nav_logo.webp" alt="PDF Navigator">
+      </div>
+
+    </section>
+
+
+
+    <!-- Навигация по разделам -->
+    <section class="app-content">
+
+      <div class="app-tabs" role="tablist">
+
+        <button class="app-tab active" id="tab-purpose" role="tab" aria-selected="true" aria-controls="panel-purpose"
+          data-tab="purpose" data-i18n="app.common.tab.purpose">
+          Назначение
+        </button>
+
+        <button class="app-tab" id="tab-interface" role="tab" aria-selected="false" aria-controls="panel-interface"
+          data-tab="interface" data-i18n="app.common.tab.interface">
+          Интерфейс
+        </button>
+
+        <button class="app-tab" id="tab-technical" role="tab" aria-selected="false" aria-controls="panel-technical"
+          data-tab="technical" data-i18n="app.common.tab.technical">
+          Техническая информация
+        </button>
+
+        <button class="app-tab" id="tab-download" role="tab" aria-selected="false" aria-controls="panel-download"
+          data-tab="download" data-i18n="app.common.tab.download">
+          Загрузка
+        </button>
+
+      </div>
+
+      <!-- Содержимое вкладок -->
+      <div class="app-tab-content">
+
+        <!-- PURPOSE -->
+        <section class="app-tab-panel active" id="panel-purpose" role="tabpanel" aria-labelledby="tab-purpose">
+
+          <h2 data-i18n="app.pdf.purpose.title">
+            Your PDF library in one place
+          </h2>
+
+          <p data-i18n="app.pdf.purpose.text">
+            PDF Navigator helps you organize, search and manage PDF documents stored in different folders.
+          </p>
+
+          <ul>
+            <li data-i18n="app.pdf.purpose.feature1">Scanning selected folders and creating a document catalogue</li>
+            <li data-i18n="app.pdf.purpose.feature2">Searching by document title and text content</li>
+            <li data-i18n="app.pdf.purpose.feature3">Viewing covers, metadata and document contents</li>
+            <li data-i18n="app.pdf.purpose.feature4">Opening files, renaming documents and editing PDF properties</li>
+          </ul>
+
+        </section>
+
+        <!-- INTERFACE -->
+        <section class="app-tab-panel" id="panel-interface" role="tabpanel" aria-labelledby="tab-interface" hidden>
+
+          <h2 data-i18n="app.pdf.interface.title">Program interface</h2>
+
+          <p data-i18n="app.pdf.interface.notice">
+            Currently available in Russian. Additional interface languages are planned.
+          </p>
+
+          <div class="app-screenshots">
+
+            <button class="screenshot-item" type="button" data-full="../assets/images/works_img/pdf_nav_01.webp">
+              <img src="../assets/images/works_img/pdf_nav_01.webp" alt="PDF Navigator screenshot 1">
+            </button>
+
+            <button class="screenshot-item" type="button" data-full="../assets/images/works_img/pdf_nav_02.webp">
+              <img src="../assets/images/works_img/pdf_nav_02.webp" alt="PDF Navigator screenshot 2">
+            </button>
+
+            <button class="screenshot-item" type="button" data-full="../assets/images/works_img/pdf_nav_03.webp">
+              <img src="../assets/images/works_img/pdf_nav_03.webp" alt="PDF Navigator screenshot 3">
+            </button>
+
+          </div>
+
+          <div class="lightbox" id="screenshot-lightbox" hidden>
+
+            <button class="lightbox-close" type="button" aria-label="Close image">&times;</button>
+
+            <button class="lightbox-prev" type="button" aria-label="Previous image">&#10094;</button>
+
+            <img class="lightbox-image" src="" alt="">
+
+            <button class="lightbox-next" type="button" aria-label="Next image">&#10095;</button>
+
+          </div>
+
+        </section>
+
+        <!-- TECHNICAL -->
+        <section class="app-tab-panel" id="panel-technical" role="tabpanel" aria-labelledby="tab-technical" hidden>
+
+          <h2 data-i18n="app.pdf.technical.title">Technical information</h2>
+
+          <ul class="app-technical-list">
+            <li data-i18n="app.pdf.technical.version">Version 1.0</li>
+            <li data-i18n="app.pdf.technical.distribution">Portable ZIP archive</li>
+            <li data-i18n="app.pdf.technical.python">Python is not required</li>
+            <li data-i18n="app.pdf.technical.localization">Interface: Russian. Other languages are planned.</li>
+          </ul>
+
+          <h3 data-i18n="app.pdf.technical.requirements">System requirements</h3>
+
+          <ul class="app-technical-list">
+            <li data-i18n="app.pdf.technical.os">Windows 10 / 11 (64-bit)</li>
+            <li data-i18n="app.pdf.technical.memory">RAM: 4 GB or more</li>
+          </ul>
+
+        </section>
+
+        <!-- DOWNLOAD -->
+        <section class="app-tab-panel" id="panel-download" role="tabpanel" aria-labelledby="tab-download" hidden>
+
+          <h2 data-i18n="app.pdf.download.title">Download PDF Navigator</h2>
+
+          <p data-i18n="app.pdf.download.description">
+            Get PDF Navigator as a portable ZIP archive. No separate installation or Python setup is required.
+          </p>
+
+          <ol class="app-download-steps">
+            <li data-i18n="app.pdf.download.step1">Download the ZIP archive.</li>
+            <li data-i18n="app.pdf.download.step2">Extract it into any folder on your computer.</li>
+            <li data-i18n="app.pdf.download.step3">Run PDF_Navigator.exe.</li>
+          </ol>
+
+          <p class="app-download-note" data-i18n="app.pdf.download.note">
+            Your catalogue, settings and other program data will be stored inside the program folder.
+          </p>
+
+          <div class="app-download-action">
+            <button class="btn btn-primary" type="button" disabled data-i18n="app.pdf.download.button">
+              Download PDF Navigator
+            </button>
+
+            <p class="app-download-placeholder" data-i18n="app.pdf.download.placeholder">
+              The download will be available soon.
+            </p>
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><a class="wordmark footer-wordmark" href="../index.html"><span
+          class="wordmark-feather">✦</span><span>Krumkač <b>Works</b></span></a>
+      <p data-i18n="footer.tagline">Идеи, которые обретают форму.</p><span class="footer-copyright">© 2026 Krumkač
+        Works</span>
+    </div>
+  </footer>
+</body>
+
+</html>

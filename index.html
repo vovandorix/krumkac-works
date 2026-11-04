@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="description"
+    content="Krumkač Works (Krumkach Works) — independent software workshop creating software, games and educational projects." />
+  <title data-i18n="title.home">Krumkač Works — идеи, которые работают</title>
+  <link href="css/style.css" rel="stylesheet" />
+  <script defer="True" src="languages/eng.js"></script>
+  <script defer="True" src="languages/bel.js"></script>
+  <script defer="True" src="languages/rus.js"></script>
+  <script defer src="data/apps.js"></script>
+  <script src="data/field-notes.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer="True" src="js/main.js"></script>
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+</head>
+
+<body>
+  <header class="site-header">
+    <a aria-label="Krumkač Works — главная" class="wordmark" href="index.html">
+      <span aria-hidden="true" class="wordmark-feather">✦</span>
+      <span>Krumkač <b>Works</b></span>
+    </a>
+    <nav aria-label="Основная навигация" class="main-nav">
+      <a class="active" data-i18n="nav.home" href="index.html">Главная</a>
+      <a data-i18n="nav.projects" href="programs.html">Программы</a>
+      <a data-i18n="nav.about" href="about.html">О мастерской</a>
+      <a data-i18n="nav.contacts" href="contacts.html">Контакты</a>
+    </nav>
+    <div aria-label="Select language" class="language-toggle" role="group"><button aria-label="English" data-lang="en"
+        type="button">ENG</button><button aria-label="Беларуская" data-lang="bel" type="button">BEL</button><button
+        aria-label="Русский" data-lang="ru" type="button">RU</button></div><button aria-label="Переключить тему"
+      class="theme-toggle" title="Переключить тему" type="button">
+      <span class="theme-icon">☼</span><span class="theme-label" data-i18n="ui.theme.light">Светлая тема</span>
+    </button>
+    <button aria-label="Open menu" class="menu-toggle" type="button">☰</button>
+  </header>
+  <main>
+    <section class="intro wrap">
+
+      <div class="intro-copy">
+
+        <p class="eyebrow">
+          <span class="eyebrow-line"></span>
+          Independent software workshop
+        </p>
+
+        <h1 data-i18n-html="home.hero.title">
+          Идеи, которые<br />
+          <em>обретают форму.</em>
+        </h1>
+
+        <p class="intro-text" data-i18n="home.hero.description">
+          Небольшая независимая мастерская, где мы создаём
+          полезные программы, образовательные игры и
+          экспериментальные цифровые проекты.
+        </p>
+
+        <div class="intro-actions">
+          <a class="button button-primary" data-i18n="home.hero.projects" href="programs.html">
+            Наши программы <span>→</span>
+          </a>
+
+          <a class="text-link" data-i18n="home.hero.about" href="about.html">
+            Познакомиться с мастерской
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="program-section">
+      <div class="wrap">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Made in our workshop</p>
+            <h2 data-i18n="home.projects.heading">Наши проекты</h2>
+          </div>
+          <a class="text-link" data-i18n="common.all_projects" href="programs.html">Все проекты <span>→</span></a>
+        </div>
+        <div class="project-grid">
+
+        </div>
+      </div>
+    </section>
+    <section class="workshop-note wrap">
+      <div class="note-mark">
+        <span class="studio-mark" role="img" aria-label="Krumkač Works"></span>
+      </div>
+      <div class="note-copy">
+        <p class="eyebrow" data-i18n="home.note.eyebrow">A small independent workshop</p>
+        <h2 data-i18n="home.note.title">Любопытство —<br />лучший инструмент.</h2>
+        <p data-i18n="home.note.text">Мы любим исследовать, собирать идеи из разных областей и превращать их в вещи,
+          которыми действительно хочется пользоваться.</p><a class="text-link" data-i18n="common.more_about"
+          href="about.html">Больше о нас <span>→</span></a>
+      </div>
+      <div class="note-aside">
+        <div class="tiny-compass">✧</div>
+
+        <p id="field-note-quote"></p>
+
+        <span class="note-sign" id="field-note-sign"></span>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="wordmark footer-wordmark" href="index.html"><span class="wordmark-feather">✦</span><span>Krumkač
+          <b>Works</b></span></a>
+      <p data-i18n="footer.tagline">Независимая мастерская программ, игр и идей.</p>
+      <span class="footer-copyright">© 2026 Krumkač Works</span>
+    </div>
+    <div aria-hidden="true" class="raven-cameo"></div>
+  </footer>
+</body>
+
+</html>
