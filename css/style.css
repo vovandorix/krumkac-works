@@ -1102,7 +1102,7 @@ html:not([data-theme="light"]) .intro {
 /* MOBILE HERO */
 
 @media(max-width:680px) {
-  .intro.wrap {
+  html .intro.wrap {
     min-height: 720px;
     padding: 55px 24px;
 
