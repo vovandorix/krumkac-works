@@ -955,6 +955,11 @@ h1 em {
     font-size: 34px
   }
 
+  .studio-mark {
+    width: 65px;
+    height: 65px;
+  }
+
   .note-aside {
     grid-column: auto;
     padding-left: 20px
@@ -1103,30 +1108,68 @@ html:not([data-theme="light"]) .intro {
 
 @media(max-width:680px) {
   html .intro.wrap {
-    display: block;
-    min-height: 0;
-    padding: 65px 24px 125vw;
+    display: flex;
+    align-items: flex-start;
+    min-height: 125vw;
+    padding: 24px 24px 0;
 
     background-color: var(--bg);
+
     background-image:
       linear-gradient(180deg,
-        var(--bg) 0%,
-        var(--bg) 25%,
-        color-mix(in srgb, var(--bg) 95%, transparent) 38%,
-        color-mix(in srgb, var(--bg) 65%, transparent) 52%,
-        color-mix(in srgb, var(--bg) 25%, transparent) 66%,
-        transparent 82%),
+        color-mix(in srgb, var(--bg) 94%, transparent) 0%,
+        color-mix(in srgb, var(--bg) 88%, transparent) 25%,
+        color-mix(in srgb, var(--bg) 76%, transparent) 45%,
+        color-mix(in srgb, var(--bg) 55%, transparent) 62%,
+        color-mix(in srgb, var(--bg) 30%, transparent) 80%,
+        color-mix(in srgb, var(--bg) 12%, transparent) 92%,
+        transparent 100%),
       url("../assets/images/logo-mobile.webp");
 
     background-size:
-      100% 125vw,
-      100% auto;
+      100% 100%,
+      100% 100%;
 
     background-position:
-      center bottom,
-      center bottom;
+      center,
+      center top;
 
     background-repeat: no-repeat;
+  }
+
+  .intro-copy {
+    max-width: 100%;
+  }
+
+  .intro h1 {
+    font-size: 38px;
+    line-height: 1.08;
+    margin-bottom: 14px;
+  }
+
+  .intro-text {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .intro-actions {
+    margin-top: 12px;
+    gap: 10px;
+  }
+
+  .intro h1 {
+    font-size: 35px;
+    line-height: 1.05;
+    margin-bottom: 10px;
+  }
+
+  .intro-text {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .intro-actions {
+    margin-top: 10px;
   }
 }
 
