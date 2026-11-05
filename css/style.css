@@ -1074,7 +1074,7 @@ h1 em {
       rgba(238, 229, 210, .88) 34%,
       rgba(238, 229, 210, .25) 65%,
       rgba(238, 229, 210, .02) 100%),
-    url('../assets/images/logo.png');
+    url('../assets/images/logo.webp');
 
   background-size: cover;
   background-position: center;
@@ -1096,16 +1096,23 @@ html:not([data-theme="light"]) .intro {
       rgba(20, 47, 49, .88) 34%,
       rgba(20, 47, 49, .25) 65%,
       rgba(20, 47, 49, .02) 100%),
-    url('../assets/images/logo.png');
+    url('../assets/images/logo.webp');
 }
 
 /* MOBILE */
 
 @media(max-width:680px) {
   .intro.wrap {
-    min-height: 570px;
+    min-height: 650px;
     padding: 55px 24px;
-    background-position: 58% center;
+    background-image:
+      linear-gradient(180deg,
+        rgba(20, 47, 49, .88) 0%,
+        rgba(20, 47, 49, .35) 45%,
+        rgba(20, 47, 49, .15) 100%),
+      url("../assets/images/logo-mobile.webp");
+    background-size: cover;
+    background-position: center;
   }
 }
 
