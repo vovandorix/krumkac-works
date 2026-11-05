@@ -1103,24 +1103,24 @@ html:not([data-theme="light"]) .intro {
 
 @media(max-width:680px) {
   html .intro.wrap {
-    min-height: 720px;
-    padding: 55px 24px;
+    display: block;
+    min-height: 0;
+    padding: 65px 24px 125vw;
 
     background-color: var(--bg);
     background-image:
       linear-gradient(180deg,
         var(--bg) 0%,
-        var(--bg) 35%,
-        color-mix(in srgb, var(--bg) 85%, transparent) 52%,
-        transparent 75%),
+        var(--bg) 12%,
+        transparent 48%),
       url("../assets/images/logo-mobile.webp");
 
     background-size:
-      100% 100%,
+      100% 125vw,
       100% auto;
 
     background-position:
-      center,
+      center bottom,
       center bottom;
 
     background-repeat: no-repeat;
