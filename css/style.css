@@ -1099,20 +1099,31 @@ html:not([data-theme="light"]) .intro {
     url('../assets/images/logo.webp');
 }
 
-/* MOBILE */
+/* MOBILE HERO */
 
 @media(max-width:680px) {
   .intro.wrap {
-    min-height: 650px;
+    min-height: 720px;
     padding: 55px 24px;
+
+    background-color: var(--bg);
     background-image:
       linear-gradient(180deg,
-        rgba(20, 47, 49, .88) 0%,
-        rgba(20, 47, 49, .35) 45%,
-        rgba(20, 47, 49, .15) 100%),
+        var(--bg) 0%,
+        var(--bg) 35%,
+        color-mix(in srgb, var(--bg) 85%, transparent) 52%,
+        transparent 75%),
       url("../assets/images/logo-mobile.webp");
-    background-size: cover;
-    background-position: center;
+
+    background-size:
+      100% 100%,
+      100% auto;
+
+    background-position:
+      center,
+      center bottom;
+
+    background-repeat: no-repeat;
   }
 }
 
