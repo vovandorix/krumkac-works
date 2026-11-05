@@ -20,7 +20,10 @@ window.KW_LANGUAGES.en = {
   "project.quadro.category": "LOGIC",
   "project.pdf.short": "A personal PDF library with cataloguing, search and quick access to document contents.",
   "project.neuro.short": "An interactive introduction to neural networks through experiments and play.",
-  "project.mova.short": "An app for learning Belarusian and exploring the living texture of the language.",
+
+  "project.mova.short": "An app for learning Belarusian through dictionaries, flashcards, dialogues, audio, grammar and games.",
+  "project.mova.list": "An app for learning Belarusian through dictionaries, flashcards, dialogues, audio, grammar and games.",
+
   "project.quadro.short": "A logic game about shapes, sequences and unexpected solutions.",
   "home.note.eyebrow": "A small independent workshop",
   "home.note.title": "Curiosity is the best tool.",
@@ -33,7 +36,7 @@ window.KW_LANGUAGES.en = {
   "programs.intro": "Small tools and digital experiments. Every project begins with curiosity and a specific problem.",
   "project.pdf.list": "PDF library catalogue, metadata, full-text search and quick previews.",
   "project.neuro.list": "Neural network experiments presented as an interactive game.",
-  "project.mova.list": "Learning Belarusian through words, sound and culture.",
+
   "project.quadro.list": "A logic game with spatial challenges and pattern discovery.",
   "common.project_page": "Project page",
   "about.eyebrow": "Who we are",
@@ -59,7 +62,7 @@ window.KW_LANGUAGES.en = {
   "app.category.quadro": "Game · Puzzle",
   "app.desc.pdf": "A tool for anyone whose books, manuals and documents are turning into a large library. Catalogue PDFs, search by title or content, and inspect file details.",
   "app.desc.neuro": "An interactive game lab for exploring neural networks. Observe, experiment with parameters and discover how a model learns to recognise patterns.",
-  "app.desc.mova": "An app for learning Belarusian. Words, associations, pronunciation and cultural context come together in a living learning system.",
+  "app.desc.mova": "An app for learning Belarusian through dictionaries, flashcards, dialogues, audio, grammar and games.",
   "app.desc.quadro": "A logic game about shapes, rules and spatial relationships. A small board, many ways to think.",
   "app.notes": "PROJECT NOTES",
   "app.about": "About the project",
@@ -121,7 +124,35 @@ window.KW_LANGUAGES.en = {
   "app.pdf.download.step3": "Run PDF_Navigator.exe.",
   "app.pdf.download.note": "Your catalogue, settings and other program data will be stored inside the program folder.",
   "app.pdf.download.button": "Download PDF Navigator",
-  "app.pdf.download.placeholder": "The download will be available soon."
+  "app.pdf.download.placeholder": "The download will be available soon.",
+
+  // MOVA
+  "app.mova.purpose.title": "Learn Belarusian step by step",
+  "app.mova.purpose.text": "MOVA brings together vocabulary, dialogues, audio, grammar and games to help you explore and practise the Belarusian language.",
+  "app.mova.purpose.feature1": "Thematic dictionaries and vocabulary collections",
+  "app.mova.purpose.feature2": "Flashcards with translations and phonetic transcriptions",
+  "app.mova.purpose.feature3": "Vocabulary review and memorisation",
+  "app.mova.purpose.feature4": "Everyday dialogues with audio and translations",
+  "app.mova.purpose.feature5": "Games for vocabulary practice",
+  "app.mova.purpose.feature6": "Grammar rules and exercises",
+  "app.mova.purpose.feature7": "Synonyms and favourite words",
+  "app.mova.purpose.feature8": "Learning progress, statistics and achievements",
+  "app.mova.purpose.feature9": "Themes and interface language settings",
+  "app.mova.purpose.feature10": "Progress backup through data export and import",
+  "app.mova.purpose.note": "Free to use and without advertising.",
+
+  "app.mova.interface.title": "App interface",
+  "app.mova.interface.notice": "Screenshots of the MOVA interface.",
+
+  "app.mova.technical.title": "Technical information",
+  "app.mova.technical.version": "Version",
+  "app.mova.technical.platform": "Platform",
+  "app.mova.technical.localization": "Interface languages",
+
+  "app.mova.download.title": "Download MOVA",
+  "app.mova.download.description": "Download MOVA and start learning Belarusian.",
+  "app.mova.download.button": "Download APK",
+  "app.mova.download.placeholder": "Download link will be available soon."
 
 
 

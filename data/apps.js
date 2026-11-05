@@ -56,9 +56,9 @@ window.KW_APPS = {
     status: "available",
 
     visual: {
-      type: "html",
+      type: "image",
       class: "visual-mova",
-      html: '<span class="mova-letter">Ў</span><span class="visual-note">LANGUAGE · CULTURE</span>'
+      src: "assets/images/works_img/mova_logo.webp"
     },
 
     category: "project.mova.category",
