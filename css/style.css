@@ -1111,8 +1111,11 @@ html:not([data-theme="light"]) .intro {
     background-image:
       linear-gradient(180deg,
         var(--bg) 0%,
-        var(--bg) 12%,
-        transparent 48%),
+        var(--bg) 25%,
+        color-mix(in srgb, var(--bg) 95%, transparent) 38%,
+        color-mix(in srgb, var(--bg) 65%, transparent) 52%,
+        color-mix(in srgb, var(--bg) 25%, transparent) 66%,
+        transparent 82%),
       url("../assets/images/logo-mobile.webp");
 
     background-size:
