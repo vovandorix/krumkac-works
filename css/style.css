@@ -1148,28 +1148,13 @@ html:not([data-theme="light"]) .intro {
   }
 
   .intro-text {
-    font-size: 13px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .intro-actions {
     margin-top: 12px;
     gap: 10px;
-  }
-
-  .intro h1 {
-    font-size: 35px;
-    line-height: 1.05;
-    margin-bottom: 10px;
-  }
-
-  .intro-text {
-    font-size: 12px;
-    line-height: 1.5;
-  }
-
-  .intro-actions {
-    margin-top: 10px;
   }
 }
 
