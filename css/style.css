@@ -940,7 +940,9 @@ h1 em {
   }
 
   .project-visual {
-    height: 170px
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 
   .project-info p {
