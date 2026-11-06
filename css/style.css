@@ -474,6 +474,10 @@ h1 em {
   background: none
 }
 
+.visual-garden {
+  background: none;
+}
+
 .mova-letter {
   font: 104px var(--serif);
   color: #f0d8ad;

@@ -152,8 +152,37 @@ window.KW_LANGUAGES.en = {
   "app.mova.download.title": "Download MOVA",
   "app.mova.download.description": "Download MOVA and start learning Belarusian.",
   "app.mova.download.button": "Download APK",
-  "app.mova.download.placeholder": "Download link will be available soon."
+  "app.mova.download.placeholder": "Download link will be available soon.",
 
+  // MY GARDEN
+  "project.garden.category": "GARDENING",
+  "project.garden.short": "A mobile app for planning garden tasks, caring for plants and keeping a history of your garden.",
+  "project.garden.list": "A mobile app for planning garden tasks, caring for plants and keeping a history of your garden.",
 
+  "title.garden": "MY GARDEN — Krumkač Works",
+
+  "app.category.garden": "Gardening · App",
+  "app.desc.garden": "A mobile app for organising garden work, caring for plants and keeping a history of your garden.",
+
+  "app.garden.purpose.title": "A more organised approach to gardening",
+  "app.garden.purpose.text": "MY GARDEN brings together the tools for planning garden work, caring for plants and keeping track of your garden throughout the season.",
+  "app.garden.purpose.feature1": "A personal collection of plants with categories and planting locations",
+  "app.garden.purpose.feature2": "Garden work planning, seasonal recommendations and reminders",
+  "app.garden.purpose.feature3": "Individual plant records with photos, notes and a history of care",
+  "app.garden.purpose.feature4": "A garden calendar with useful seasonal and lunar guidance",
+  "app.garden.purpose.feature5": "Daily overview of planned garden tasks",
+
+  "app.garden.interface.title": "App interface",
+  "app.garden.interface.notice": "Screenshots of the MY GARDEN interface.",
+
+  "app.garden.technical.title": "Technical information",
+  "app.garden.technical.version": "Version",
+  "app.garden.technical.platform": "Platform",
+  "app.garden.technical.localization": "Interface languages",
+
+  "app.garden.download.title": "Download MY GARDEN",
+  "app.garden.download.description": "Download MY GARDEN for Android.",
+  "app.garden.download.button": "Download APK",
+  "app.garden.download.placeholder": "Download link will be available soon."
 
 };

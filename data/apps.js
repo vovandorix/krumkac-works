@@ -25,30 +25,6 @@ window.KW_APPS = {
     featured: true
   },
 
-  neuro: {
-    id: "neuro",
-    name: "little-neuro",
-    order: 3,
-    status: "development",
-
-    visual: {
-      type: "html",
-      class: "visual-neuro",
-      html: '<span class="network-nodes">● ─ ●<br>╲ ╳ ╱<br>● ─ ●</span><span class="visual-note">LEARN BY PLAYING</span>'
-    },
-
-    category: "project.neuro.category",
-    platform: "WEB",
-
-    descriptions: {
-      home: "project.neuro.short",
-      catalog: "project.neuro.list"
-    },
-
-    page: "apps/little-neuro.html",
-    featured: true
-  },
-
   mova: {
     id: "mova",
     name: "MOVA",
@@ -73,10 +49,58 @@ window.KW_APPS = {
     featured: true
   },
 
+  myGarden: {
+    id: "my-garden",
+    name: "MY GARDEN",
+    order: 3,
+    status: "development",
+
+    visual: {
+      type: "image",
+      class: "visual-garden",
+      src: "assets/images/works_img/my_garden_logo.webp"
+    },
+
+    category: "project.garden.category",
+    platform: "APP",
+
+    descriptions: {
+      home: "project.garden.short",
+      catalog: "project.garden.list"
+    },
+
+    page: "apps/my-garden.html",
+    featured: true
+  },
+
+  neuro: {
+    id: "neuro",
+    name: "little-neuro",
+    order: 4,
+    status: "development",
+
+    visual: {
+      type: "html",
+      class: "visual-neuro",
+      html: '<span class="network-nodes">● ─ ●<br>╲ ╳ ╱<br>● ─ ●</span><span class="visual-note">LEARN BY PLAYING</span>'
+    },
+
+    category: "project.neuro.category",
+    platform: "WEB",
+
+    descriptions: {
+      home: "project.neuro.short",
+      catalog: "project.neuro.list"
+    },
+
+    page: "apps/little-neuro.html",
+    featured: true
+  },
+
   quadro: {
     id: "quadro",
     name: "Quadro",
-    order: 4,
+    order: 5,
     status: "development",
 
     visual: {

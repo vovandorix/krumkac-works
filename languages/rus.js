@@ -153,6 +153,36 @@ window.KW_LANGUAGES.ru = {
   "app.mova.download.title": "Скачать MOVA",
   "app.mova.download.description": "Скачайте MOVA и начните изучать белорусский язык.",
   "app.mova.download.button": "Скачать APK",
-  "app.mova.download.placeholder": "Ссылка для скачивания появится позже."
+  "app.mova.download.placeholder": "Ссылка для скачивания появится позже.",
 
+  // MY GARDEN
+  "project.garden.category": "САДОВОДСТВО",
+  "project.garden.short": "Мобильное приложение для планирования садовых работ, ухода за растениями и ведения истории своего сада.",
+  "project.garden.list": "Мобильное приложение для планирования садовых работ, ухода за растениями и ведения истории своего сада.",
+
+  "title.garden": "MY GARDEN — Krumkač Works",
+
+  "app.category.garden": "САДОВОДСТВО · APP",
+  "app.desc.garden": "Мобильное приложение для организации садовых работ, ухода за растениями и ведения истории своего сада.",
+
+  "app.garden.purpose.title": "Порядок в садовых делах",
+  "app.garden.purpose.text": "MY GARDEN объединяет инструменты для планирования садовых работ, ухода за растениями и ведения истории сада на протяжении всего сезона.",
+  "app.garden.purpose.feature1": "Собственная коллекция растений с категориями и местами посадки",
+  "app.garden.purpose.feature2": "Планирование садовых работ, сезонные рекомендации и напоминания",
+  "app.garden.purpose.feature3": "Индивидуальные карточки растений с фотографиями, заметками и историей ухода",
+  "app.garden.purpose.feature4": "Садовый календарь с сезонными и лунными рекомендациями",
+  "app.garden.purpose.feature5": "Ежедневный обзор запланированных садовых работ",
+
+  "app.garden.interface.title": "Интерфейс приложения",
+  "app.garden.interface.notice": "Скриншоты интерфейса MY GARDEN.",
+
+  "app.garden.technical.title": "Техническая информация",
+  "app.garden.technical.version": "Версия",
+  "app.garden.technical.platform": "Платформа",
+  "app.garden.technical.localization": "Языки интерфейса",
+
+  "app.garden.download.title": "Скачать MY GARDEN",
+  "app.garden.download.description": "Скачайте MY GARDEN для Android.",
+  "app.garden.download.button": "Скачать APK",
+  "app.garden.download.placeholder": "Ссылка для скачивания скоро появится."
 };
